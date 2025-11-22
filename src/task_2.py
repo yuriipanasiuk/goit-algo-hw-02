@@ -10,7 +10,8 @@ def is_palindrome(s):
     while len(d) > 1:
         if d.popleft() != d.pop():
             return False
-        return True
+
+    return True
 
 
 if __name__ == "__main__":
